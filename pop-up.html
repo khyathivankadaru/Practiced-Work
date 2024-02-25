@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var balance = 10000;
+        var amount = prompt("Enter your amount")
+        if(amount<balance){
+            alert("before deduction balance:"+balance)
+            balance=balance-amount
+            alert("deducted successfully")
+            alert("after deduction balance:"+balance)
+
+        }
+        else{
+            alert("your balance is:"+balance+"enter amount less than your balance")
+        }
+        
+
+        
+    </script>
+</body>
+</html>

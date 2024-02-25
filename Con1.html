@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function age(){
+            if(document.getElementById("t1").value>=18){
+            alert("Eligible for voting")
+            }
+            else{
+                alert("Not Eligible for voting")
+            }
+        }
+    </script>
+</head>
+<body>
+    <h2>Enter the age:<input type="number" id="t1"></h2>
+    <button type="button" onclick="age()">Verify</button>
+</body>
+</html>
